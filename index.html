@@ -22,11 +22,24 @@
     <script type="text/babel">
       function App() {
         return (
-          <div>
-            <h1>Hello ajay</h1>
-            <p>
-              <button>Hello</button>
-            </p>
+          <div className="container">
+            <div className="header">
+              {" "}
+              <a className="nameHeader" hrf="#">
+                Ajay Kadam
+              </a>
+            </div>
+            <div className="sideBody">
+              <div className="sidebar">
+                <img
+                  className="profileImage"
+                  src="assets/panda.png"
+                  alt="not exist"
+                />
+              </div>
+              <div className="bodywrap"> this is the body wrap</div>
+            </div>
+            <div className="footer"> @2019 Ajay Kadam </div>
           </div>
         );
       }
