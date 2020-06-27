@@ -26,6 +26,13 @@
   align-items: flex-start;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
+  justify-content: space-between;
+}
+.navLinks {
+  position: relative;
+  right: 50px;
+  font-size: 20px;
+  top: 20px;
 }
 
 .sideBody {
@@ -37,7 +44,7 @@
 .sidebar {
   background-color: #33465a;
   position: relative;
-  width: 20%;
+  width: 18%;
 }
 
 .profileImage {
@@ -50,7 +57,7 @@
 .bodywrap {
   background-color: rgb(230, 230, 230);
   position: relative;
-  width: 80%;
+  width: 82%;
 }
 
 .footer {
@@ -63,14 +70,30 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
 }
+.footerText {
+  top: 10px;
+  position: relative;
+}
 
 @media only screen and (max-width: 600px) {
   .profileImage {
     height: 60px;
   }
   .nameHeader {
-    font-size: 22px;
-    top: 15px;
-    left: 25px;
+    font-size: 20px;
+    top: 22px;
+    left: 13px;
   }
+  .navLinks {
+    right: -3px;
+    position: relative;
+  }
+}
+
+body a {
+  color: white;
+}
+.navLinks a:hover {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 }
